@@ -12,6 +12,28 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>2026 Arjun Bahuguna</copyright>
+    <lastBuildDate>Sat, 24 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://arjunbahuguna.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Evaluation</title>
+      <link>https://arjunbahuguna.github.io/tags/evaluation/</link>
+      <pubDate>Sat, 24 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://arjunbahuguna.github.io/tags/evaluation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Generation</title>
+      <link>https://arjunbahuguna.github.io/tags/generation/</link>
+      <pubDate>Sat, 24 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://arjunbahuguna.github.io/tags/generation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Music-Ir</title>
+      <link>https://arjunbahuguna.github.io/tags/music-ir/</link>
+      <pubDate>Sat, 24 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://arjunbahuguna.github.io/tags/music-ir/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

@@ -10,7 +10,7 @@
 <meta name="description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
 <meta name="author" content="Arjun Bahuguna">
 <link rel="canonical" href="https://arjunbahuguna.github.io/tags/generation/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.71da6873cf321d7c352ac63831b6f3bd3e9fbc537800631bf24848e7fc6b72d1.css" integrity="sha256-cdpoc88yHXw1KsY4MbbzvT6fvFN4AGMb8khI5/xrctE=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7c5c2a7d99a3f7eb7e3dc94836b06a71349d8f13fc984d072f9424a6242164fb.css" integrity="sha256-fFwqfZmj9&#43;t&#43;PclINrBqcTSdjxP8mE0HL5QkpiQhZPs=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://arjunbahuguna.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://arjunbahuguna.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://arjunbahuguna.github.io/favicon-32x32.png">
@@ -65,7 +65,34 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="https://arjunbahuguna.github.io/tags/generation/">
+</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.43/dist/katex.min.css"
+    integrity="sha384-GN/+TZ6J/TdzuQrKFjIgwzaM0nkbGRiCBnJ9i+CmaynUcJDRE3u6Frp/8oj/lBze" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.43/dist/katex.min.js"
+    integrity="sha384-I/76u4uGYb2jZizpHGbumq1RzC/CknJIAamvKNrTumsehWnS4xX0FFQvlX0I2s/n" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.43/dist/contrib/auto-render.min.js"
+    integrity="sha384-bjyGPfbij8/NDKJhSGZNP/khQVgtHUE5exjm4Ydllo42FwIgYsdLO2lXGmRBf5Mz" crossorigin="anonymous"></script>
+<script>
+    
+    function renderMath() {
+        if (typeof renderMathInElement !== "undefined") {
+            renderMathInElement(document.body, {
+                delimiters: [
+                    {left: "$$", right: "$$", display: true},
+                    {left: "$", right: "$", display: false},
+                    {left: "\\(", right: "\\)", display: false},
+                    {left: "\\[", right: "\\]", display: true}
+                ],
+                throwOnError: false,
+                ignoredTags: ["script", "noscript", "style", "textarea", "pre", "code"]
+            });
+        } else {
+            setTimeout(renderMath, 50);
+        }
+    }
+    document.addEventListener("DOMContentLoaded", renderMath);
+</script>
+<meta property="og:url" content="https://arjunbahuguna.github.io/tags/generation/">
   <meta property="og:site_name" content="Arjun Bahuguna">
   <meta property="og:title" content="Generation">
   <meta property="og:description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
@@ -140,7 +167,7 @@
     <p>The benchmarking of generative music systems represents a significant challenge in contemporary Music Information Retrieval because the field lacks a definitive ground truth against which synthetic outputs can be measured. Generative models such as those utilizing Transformer architectures or WaveNet variants often produce compositions that possess local coherence but fail to demonstrate global structural regularity or long-term repetitive dependencies (Wang et al., 2023). Because artistic output is inherently subjective, the evaluation framework must transition beyond simple error minimization tasks to integrate multifaceted metrics that account for audio fidelity, musical theory adherence, and human perceptual experience (Lerch et al., 2025).
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-01-24 00:00:00 +0000 UTC'>January 24, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>Arjun Bahuguna</span></footer>
+  <footer class="entry-footer">Date: January 24, 2026  |  Estimated Reading Time: 4 min  |  Author: Arjun Bahuguna</footer>
   <a class="entry-link" aria-label="post link to Evaluation of Music Generation Systems" href="https://arjunbahuguna.github.io/posts/evaluation_of_audio_generation_system/"></a>
 </article>
     </main>

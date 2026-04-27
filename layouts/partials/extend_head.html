@@ -1,0 +1,27 @@
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.43/dist/katex.min.css"
+    integrity="sha384-GN/+TZ6J/TdzuQrKFjIgwzaM0nkbGRiCBnJ9i+CmaynUcJDRE3u6Frp/8oj/lBze" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.43/dist/katex.min.js"
+    integrity="sha384-I/76u4uGYb2jZizpHGbumq1RzC/CknJIAamvKNrTumsehWnS4xX0FFQvlX0I2s/n" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.43/dist/contrib/auto-render.min.js"
+    integrity="sha384-bjyGPfbij8/NDKJhSGZNP/khQVgtHUE5exjm4Ydllo42FwIgYsdLO2lXGmRBf5Mz" crossorigin="anonymous"></script>
+<script>
+    // Wait for both DOM and deferred scripts to be ready
+    function renderMath() {
+        if (typeof renderMathInElement !== "undefined") {
+            renderMathInElement(document.body, {
+                delimiters: [
+                    {left: "$$", right: "$$", display: true},
+                    {left: "$", right: "$", display: false},
+                    {left: "\\(", right: "\\)", display: false},
+                    {left: "\\[", right: "\\]", display: true}
+                ],
+                throwOnError: false,
+                ignoredTags: ["script", "noscript", "style", "textarea", "pre", "code"]
+            });
+        } else {
+            setTimeout(renderMath, 50);
+        }
+    }
+    document.addEventListener("DOMContentLoaded", renderMath);
+</script>

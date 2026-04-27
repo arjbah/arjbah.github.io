@@ -2,24 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/archives.fr/</loc>
+  </url><url>
     <loc>//localhost:1313/archives/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="//localhost:1313/fr/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:1313/archives/"
-                />
   </url><url>
     <loc>//localhost:1313/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="//localhost:1313/fr/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
@@ -34,16 +21,8 @@
     <loc>//localhost:1313/categories/</loc>
   </url><url>
     <loc>//localhost:1313/search/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="//localhost:1313/fr/search/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:1313/search/"
-                />
+  </url><url>
+    <loc>//localhost:1313/search.fr/</loc>
   </url><url>
     <loc>//localhost:1313/series/</loc>
   </url><url>

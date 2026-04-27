@@ -9,9 +9,9 @@
 <title>Arjun Bahuguna</title>
 
 <meta name="description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
-<meta name="author" content="Theme PaperMod">
+<meta name="author" content="Arjun Bahuguna">
 <link rel="canonical" href="//localhost:1313/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.7f8702ad4c3159231ff7aa5f7bf1a574a69e60a988350dee1489d2c17b25d91e.css" integrity="sha256-f4cCrUwxWSMf96pfe/GldKaeYKmINQ3uFInSwXsl2R4=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.15a4feb6a880e9c8787b39ba69443703bd60edd8cfcc837b19dfb198f72c72b7.css" integrity="sha256-FaT&#43;tqiA6ch4ezm6aUQ3A71g7djPzIN7Gd&#43;xmPcscrc=" rel="preload stylesheet" as="style">
 <link rel="icon" href="//localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/favicon-32x32.png">
@@ -22,8 +22,6 @@
 <link rel="alternate" type="application/rss+xml" href="//localhost:1313/index.xml" title="rss">
 <link rel="alternate" type="application/json" href="//localhost:1313/index.json" title="json">
 <link rel="alternate" hreflang="en" href="//localhost:1313/">
-<link rel="alternate" hreflang="fr" href="//localhost:1313/fr/">
-<link rel="alternate" hreflang="fa" href="//localhost:1313/fa/">
 <noscript>
     <style>
         #theme-toggle,
@@ -75,7 +73,34 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="//localhost:1313/">
+</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.43/dist/katex.min.css"
+    integrity="sha384-GN/+TZ6J/TdzuQrKFjIgwzaM0nkbGRiCBnJ9i+CmaynUcJDRE3u6Frp/8oj/lBze" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.43/dist/katex.min.js"
+    integrity="sha384-I/76u4uGYb2jZizpHGbumq1RzC/CknJIAamvKNrTumsehWnS4xX0FFQvlX0I2s/n" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.43/dist/contrib/auto-render.min.js"
+    integrity="sha384-bjyGPfbij8/NDKJhSGZNP/khQVgtHUE5exjm4Ydllo42FwIgYsdLO2lXGmRBf5Mz" crossorigin="anonymous"></script>
+<script>
+    
+    function renderMath() {
+        if (typeof renderMathInElement !== "undefined") {
+            renderMathInElement(document.body, {
+                delimiters: [
+                    {left: "$$", right: "$$", display: true},
+                    {left: "$", right: "$", display: false},
+                    {left: "\\(", right: "\\)", display: false},
+                    {left: "\\[", right: "\\]", display: true}
+                ],
+                throwOnError: false,
+                ignoredTags: ["script", "noscript", "style", "textarea", "pre", "code"]
+            });
+        } else {
+            setTimeout(renderMath, 50);
+        }
+    }
+    document.addEventListener("DOMContentLoaded", renderMath);
+</script>
+<meta property="og:url" content="//localhost:1313/">
   <meta property="og:site_name" content="Arjun Bahuguna">
   <meta property="og:title" content="Arjun Bahuguna">
   <meta property="og:description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
@@ -96,7 +121,7 @@
   "description": "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod",
   "logo": "//localhost:1313/favicon.ico",
   "sameAs": [
-      "https://github.com/arjunbahuguna", "https://linkedin.com/in/arjunbahuguna/"
+      "https://github.com/arjunbahuguna", "https://linkedin.com/in/arjunbahuguna/", "mailto:arjun.bahuguna01@estudiant.upf.edu"
   ]
 }
 </script>
@@ -127,43 +152,12 @@
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
                 </button>
-                    <ul class="lang-switch"><li>|</li>
-                        <li>
-                            <a href="//localhost:1313/fr/" title="French"
-                                aria-label=":fr:">🇫🇷</a>
-                        </li>
-                        <li>
-                            <a href="//localhost:1313/fa/" title="Fa"
-                                aria-label="Fa">Fa</a>
-                        </li>
-                    </ul>
             </div>
         </div>
         <ul id="menu">
             <li>
                 <a href="//localhost:1313/archives" title="Archive">
                     <span>Archive</span>
-                </a>
-            </li>
-            <li>
-                <a href="//localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
-                    <span>Search</span>
-                </a>
-            </li>
-            <li>
-                <a href="//localhost:1313/tags/" title="Tags">
-                    <span>Tags</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/adityatelange/hugo-PaperMod/wiki/" title="WiKi">
-                    <span>WiKi</span>&nbsp;
-                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
-                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
-                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
-                        <path d="M15 3h6v6"></path>
-                        <path d="M10 14L21 3"></path>
-                    </svg>
                 </a>
             </li>
         </ul>
@@ -175,7 +169,7 @@
         <h2>👋 Hola नमस्ते നമസ്കാരം السلام علیکم ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ 你好 こんにちは</h2>
     </header>
     <div class="entry-content">
-        I&rsquo;m a Master&rsquo;s student in Sound &amp; Music Computing at Universitat Pompeu Fabra, Barcelona. <br><br> Previously, I led Audio ML research at startups in Germany &amp; India, focusing on improving large-scale self-supervised models for speech. <br><br> Here I write about my research interests: representation learning for audio and text, conditional generation of audio, and interpretability. <br><br>
+        I&rsquo;m a Master&rsquo;s student in Sound &amp; Music Computing at Universitat Pompeu Fabra, Barcelona. <br><br> Previously, I led Audio ML research at startups in Germany &amp; India, focusing on improving large-scale self-supervised models for speech. <br><br> My research interests are representation learning for audio and text, conditional generation of audio, and interpretability. Say hi if you&rsquo;re into audio as well :) <br><br>
     </div>
     <footer class="entry-footer">
         <div class="social-icons" >
@@ -197,9 +191,30 @@
     <circle cx="4" cy="4" r="2"></circle>
 </svg>
     </a>
+    <a href="mailto:arjun.bahuguna01@estudiant.upf.edu" target="_blank" rel="noopener noreferrer me"
+        title="Send Me an Email">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 21" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+    <polyline points="22,6 12,13 2,6"></polyline>
+</svg>
+    </a>
 </div>
 
     </footer>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Evaluation of Music Generation Systems
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>The benchmarking of generative music systems represents a significant challenge in contemporary Music Information Retrieval because the field lacks a definitive ground truth against which synthetic outputs can be measured. Generative models such as those utilizing Transformer architectures or WaveNet variants often produce compositions that possess local coherence but fail to demonstrate global structural regularity or long-term repetitive dependencies (Wang et al., 2023). Because artistic output is inherently subjective, the evaluation framework must transition beyond simple error minimization tasks to integrate multifaceted metrics that account for audio fidelity, musical theory adherence, and human perceptual experience (Lerch et al., 2025).
+...</p>
+  </div>
+  <footer class="entry-footer">Date: January 24, 2026  |  Estimated Reading Time: 4 min  |  Author: Arjun Bahuguna</footer>
+  <a class="entry-link" aria-label="post link to Evaluation of Music Generation Systems" href="//localhost:1313/posts/evaluation_of_audio_generation_system/"></a>
 </article>
     </main>
     

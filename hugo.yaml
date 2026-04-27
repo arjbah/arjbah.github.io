@@ -35,75 +35,75 @@ languages:
         - name: Archive
           url: archives
           weight: 5
-        - name: Search
-          url: search/
-          weight: 10
-        - name: Tags
-          url: tags/
-          weight: 10
-        - name: WiKi
-          url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+        # - name: Search
+        #   url: search/
+        #   weight: 10
+        # - name: Tags
+        #   url: tags/
+        #   weight: 10
+        # - name: WiKi
+        #   url: https://github.com/adityatelange/hugo-PaperMod/wiki/
 
-  fr:
-    languageName: ":fr:"
-    weight: 2
-    title: PaperModL2
-    taxonomies:
-      category: FRcategories
-      tag: FRtags
-      series: FRseries
-    menu:
-      main:
-        - name: Archive
-          url: archives/
-          weight: 5
-        - name: FRTags
-          url: frtags
-          weight: 10
-        - name: FRCategories
-          url: frcategories
-          weight: 10
-        - name: FRSeries
-          url: frseries
-          weight: 10
-        - name: NullLink
-          url: "#"
+  # fr:
+  #   languageName: ":fr:"
+  #   weight: 2
+  #   title: PaperModL2
+  #   taxonomies:
+  #     category: FRcategories
+  #     tag: FRtags
+  #     series: FRseries
+  #   menu:
+  #     main:
+  #       - name: Archive
+  #         url: archives/
+  #         weight: 5
+  #       - name: FRTags
+  #         url: frtags
+  #         weight: 10
+  #       - name: FRCategories
+  #         url: frcategories
+  #         weight: 10
+  #       - name: FRSeries
+  #         url: frseries
+  #         weight: 10
+  #       - name: NullLink
+  #         url: "#"
 
     # custom params for each language should be under [langcode].parms - hugo v0.120.0
-    params:
-      languageAltTitle: French
-      profileMode:
-        enabled: true
-        title: PaperMod
-        imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
-        imageTitle: ProfileMode image
-        # imageWidth: 120
-        # imageHeight: 120
-        subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
-        buttons:
-          - name: Blog
-            url: posts
-          - name: Profile Mode
-            url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
+    # params:
+    #   languageAltTitle: French
+    #   profileMode:
+    #     enabled: true
+    #     title: PaperMod
+    #     imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
+    #     imageTitle: ProfileMode image
+    #     # imageWidth: 120
+    #     # imageHeight: 120
+    #     subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+    #     buttons:
+    #       - name: Blog
+    #         url: posts
+    #       - name: Profile Mode
+    #         url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
 
-  fa:
-    languagedirection: rtl
-    weight: 3
-    title: PaperMod RTL
-    taxonomies:
-      category: FAcategories
-      tag: FAtags
-      series: FAseries
-    menu:
-      main:
-        - name: FATags
-          url: fatags
-          weight: 10
-    # custom params for each language should be under [langcode].parms - hugo v0.120.0
-    params:
-      homeInfoParams:
-        Title: "Hi there \U0001F44B"
-        Content: Welcome to RTL layout
+  # fa:
+  #   languagedirection: rtl
+  #   weight: 3
+  #   title: PaperMod RTL
+  #   taxonomies:
+  #     category: FAcategories
+  #     tag: FAtags
+  #     series: FAseries
+  #   menu:
+  #     main:
+  #       - name: FATags
+  #         url: fatags
+  #         weight: 10
+  #   # custom params for each language should be under [langcode].parms - hugo v0.120.0
+  #   params:
+  #     homeInfoParams:
+  #       Title: "Hi there \U0001F44B"
+  #       Content: Welcome to RTL layout
 
 outputs:
   home:
@@ -114,7 +114,7 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-  author: Theme PaperMod
+  author: Arjun Bahuguna
   # author: ["Me", "You"] # multiple authors
 
   defaultTheme: auto
@@ -124,7 +124,7 @@ params:
   # disableSpecial1stPost: true
   displayFullLangName: true
   ShowPostNavLinks: true
-  ShowBreadCrumbs: true
+  ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
   ShowRssButtonInSectionTermList: true
   ShowAllPagesInArchive: true
@@ -151,7 +151,7 @@ params:
     Content: >
       I'm a Master's student in Sound & Music Computing at Universitat Pompeu Fabra, Barcelona. <br><br>
       Previously, I led Audio ML research at startups in Germany & India, focusing on improving large-scale self-supervised models for speech. <br><br>
-      Here I write about my research interests: representation learning for audio and text, conditional generation of audio, and interpretability. <br><br>
+      My research interests are representation learning for audio and text, conditional generation of audio, and interpretability. Say hi if you're into audio as well :) <br><br>
   socialIcons:
     - name: github
       title: Connect on GitHub
@@ -159,14 +159,17 @@ params:
     - name: linkedin
       title: Connect on LinkedIn
       url: "https://linkedin.com/in/arjunbahuguna/"
+    - name: email
+      title: Send me an email
+      url: "mailto:arjun.bahuguna01@estudiant.upf.edu"
     # - name: KoFi
     #   title: Buy me a Ko-Fi :)
     #   url: "https://ko-fi.com/adityatelange"
 
   editPost:
-    URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+    URL: ""
+    Text: "" # edit text
+    appendFilePath: false # to append file path to Edit link
 
   # label:
   # iconSVG: '<svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z"/></svg>'
@@ -204,6 +207,20 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+            - - \[
+              - \]
+            - - $$
+              - $$
+          inline:
+            - - \(
+              - \)
+            - - $
+              - $
+        enable: true
   highlight:
     noClasses: false
     # anchorLineNos: true

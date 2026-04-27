@@ -30,3 +30,16 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# Ideas
+ideas.md
+exec_steps.md
+implementation_plan.md
+temp/
+
+# Miscellaneous
+*.pdf
+*.log
+*.tmp
+*.lock
+*.bkup

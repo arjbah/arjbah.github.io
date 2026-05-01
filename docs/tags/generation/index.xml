@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Generation on Arjun Bahuguna</title>
-    <link>https://arjunbahuguna.github.io/tags/generation/</link>
+    <link>https://arjbah.github.io/tags/generation/</link>
     <description>Recent content in Generation on Arjun Bahuguna</description>
     <image>
       <title>Arjun Bahuguna</title>
-      <url>https://arjunbahuguna.github.io/images/papermod-cover.png</url>
-      <link>https://arjunbahuguna.github.io/images/papermod-cover.png</link>
+      <url>https://arjbah.github.io/images/papermod-cover.png</url>
+      <link>https://arjbah.github.io/images/papermod-cover.png</link>
     </image>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>2026 Arjun Bahuguna</copyright>
-    <lastBuildDate>Sat, 24 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://arjunbahuguna.github.io/tags/generation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://arjbah.github.io/tags/generation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Evaluation of Music Generation Systems</title>
-      <link>https://arjunbahuguna.github.io/posts/evaluation_of_audio_generation_system/</link>
-      <pubDate>Sat, 24 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://arjunbahuguna.github.io/posts/evaluation_of_audio_generation_system/</guid>
-      <description>&lt;p&gt;The benchmarking of generative music systems represents a significant challenge in contemporary Music Information Retrieval because the field lacks a definitive ground truth against which synthetic outputs can be measured. Generative models such as those utilizing Transformer architectures or WaveNet variants often produce compositions that possess local coherence but fail to demonstrate global structural regularity or long-term repetitive dependencies (&lt;a href=&#34;https://arjunbahuguna.github.io/posts/evaluation_of_audio_generation_system/#references&#34;&gt;Wang et al., 2023&lt;/a&gt;). Because artistic output is inherently subjective, the evaluation framework must transition beyond simple error minimization tasks to integrate multifaceted metrics that account for audio fidelity, musical theory adherence, and human perceptual experience (&lt;a href=&#34;https://arjunbahuguna.github.io/posts/evaluation_of_audio_generation_system/#references&#34;&gt;Lerch et al., 2025&lt;/a&gt;).&lt;/p&gt;</description>
+      <link>https://arjbah.github.io/posts/2026_01_evaluation_of_music_generation_system/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://arjbah.github.io/posts/2026_01_evaluation_of_music_generation_system/</guid>
+      <description>&lt;p&gt;The benchmarking of generative music systems represents a significant challenge in contemporary Music Information Retrieval because the field lacks a definitive ground truth against which synthetic outputs can be measured. Generative models such as those utilizing Transformer architectures or WaveNet variants often produce compositions that possess local coherence but fail to demonstrate global structural regularity or long-term repetitive dependencies (&lt;a href=&#34;https://arjbah.github.io/posts/2026_01_evaluation_of_music_generation_system/#references&#34;&gt;Wang et al., 2023&lt;/a&gt;). Because artistic output is inherently subjective, the evaluation framework must transition beyond simple error minimization tasks to integrate multifaceted metrics that account for audio fidelity, musical theory adherence, and human perceptual experience (&lt;a href=&#34;https://arjbah.github.io/posts/2026_01_evaluation_of_music_generation_system/#references&#34;&gt;Lerch et al., 2025&lt;/a&gt;).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

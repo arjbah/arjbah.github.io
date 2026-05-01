@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Conference Summary on Arjun Bahuguna</title>
+    <link>http://localhost:1313/tags/conference-summary/</link>
+    <description>Recent content in Conference Summary on Arjun Bahuguna</description>
+    <image>
+      <title>Arjun Bahuguna</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>2026 Arjun Bahuguna</copyright>
+    <lastBuildDate>Fri, 09 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/conference-summary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Top 5 Takeaways from ICASSP 2026</title>
+      <link>http://localhost:1313/posts/2026_icassp_top10/</link>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2026_icassp_top10/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

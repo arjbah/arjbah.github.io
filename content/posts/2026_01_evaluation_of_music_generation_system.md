@@ -1,11 +1,12 @@
 ---
 author: "Arjun Bahuguna"
 title: "Evaluation of Music Generation Systems"
-date: "2026-01-24"
+date: "2026-01-01"
 description: ""
 tags: ["evaluation", "generation", "music-ir"]
 ShowToc: true
-TocOpen: true
+TocOpen: false
+Draft: false
 ---
 
 The benchmarking of generative music systems represents a significant challenge in contemporary Music Information Retrieval because the field lacks a definitive ground truth against which synthetic outputs can be measured. Generative models such as those utilizing Transformer architectures or WaveNet variants often produce compositions that possess local coherence but fail to demonstrate global structural regularity or long-term repetitive dependencies ([Wang et al., 2023](#references)). Because artistic output is inherently subjective, the evaluation framework must transition beyond simple error minimization tasks to integrate multifaceted metrics that account for audio fidelity, musical theory adherence, and human perceptual experience ([Lerch et al., 2025](#references)).

@@ -12,8 +12,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>2026 Arjun Bahuguna</copyright>
-    <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://arjbah.github.io/tags/evaluation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Embedding Geometry in Pretrained CLAP Models</title>
+      <link>https://arjbah.github.io/posts/2026_06_evaluating_jtae/</link>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://arjbah.github.io/posts/2026_06_evaluating_jtae/</guid>
+      <description>A long-form walkthrough of why pretrained CLAP models fail on compositional audio–text benchmarks, framed through the geometry of their embedding spaces: RankMe effective rank, Two-NN intrinsic dimension, residual singular-value energy, and the audio–text modality gap.</description>
+    </item>
     <item>
       <title>Evaluation of Music Generation Systems</title>
       <link>https://arjbah.github.io/posts/2026_01_evaluation_of_music_generation_system/</link>

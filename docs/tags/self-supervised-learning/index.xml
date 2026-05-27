@@ -2,31 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Self-Supervised Learning on Arjun Bahuguna</title>
-    <link>http://localhost:1313/tags/self-supervised-learning/</link>
+    <link>https://arjbah.github.io/tags/self-supervised-learning/</link>
     <description>Recent content in Self-Supervised Learning on Arjun Bahuguna</description>
     <image>
       <title>Arjun Bahuguna</title>
-      <url>http://localhost:1313/images/papermod-cover.png</url>
-      <link>http://localhost:1313/images/papermod-cover.png</link>
+      <url>https://arjbah.github.io/images/papermod-cover.png</url>
+      <link>https://arjbah.github.io/images/papermod-cover.png</link>
     </image>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>2026 Arjun Bahuguna</copyright>
-    <lastBuildDate>Sun, 01 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/self-supervised-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://arjbah.github.io/tags/self-supervised-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Evaluation of Musical Audio Embeddings Beyond Downstream Performance</title>
-      <link>http://localhost:1313/posts/2026_03_evaluation_of_embeddings_beyond_downstream_performance/</link>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2026_03_evaluation_of_embeddings_beyond_downstream_performance/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>New Horizons in Self-supervised Learning for MIR</title>
-      <link>http://localhost:1313/posts/2026_02_new_horizons_in_ssl_for_mir/</link>
-      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2026_02_new_horizons_in_ssl_for_mir/</guid>
-      <description>&lt;p&gt;The benchmarking of generative music systems represents a significant challenge in contemporary Music Information Retrieval because the field lacks a definitive ground truth against which synthetic outputs can be measured. Generative models such as those utilizing Transformer architectures or WaveNet variants often produce compositions that possess local coherence but fail to demonstrate global structural regularity or long-term repetitive dependencies (&lt;a href=&#34;http://localhost:1313/posts/2026_02_new_horizons_in_ssl_for_mir/#references&#34;&gt;Wang et al., 2023&lt;/a&gt;). Because artistic output is inherently subjective, the evaluation framework must transition beyond simple error minimization tasks to integrate multifaceted metrics that account for audio fidelity, musical theory adherence, and human perceptual experience (&lt;a href=&#34;http://localhost:1313/posts/2026_02_new_horizons_in_ssl_for_mir/#references&#34;&gt;Lerch et al., 2025&lt;/a&gt;).&lt;/p&gt;</description>
+      <title>Embedding Geometry in Pretrained CLAP Models</title>
+      <link>https://arjbah.github.io/posts/2026_06_evaluating_jtae/</link>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://arjbah.github.io/posts/2026_06_evaluating_jtae/</guid>
+      <description>A long-form walkthrough of why pretrained CLAP models fail on compositional audio–text benchmarks, framed through the geometry of their embedding spaces: RankMe effective rank, Two-NN intrinsic dimension, residual singular-value energy, and the audio–text modality gap.</description>
     </item>
   </channel>
 </rss>

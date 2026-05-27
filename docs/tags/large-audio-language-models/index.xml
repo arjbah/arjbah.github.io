@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Large Audio Language Models on Arjun Bahuguna</title>
-    <link>http://localhost:1313/tags/large-audio-language-models/</link>
+    <link>https://arjbah.github.io/tags/large-audio-language-models/</link>
     <description>Recent content in Large Audio Language Models on Arjun Bahuguna</description>
     <image>
       <title>Arjun Bahuguna</title>
-      <url>http://localhost:1313/images/papermod-cover.png</url>
-      <link>http://localhost:1313/images/papermod-cover.png</link>
+      <url>https://arjbah.github.io/images/papermod-cover.png</url>
+      <link>https://arjbah.github.io/images/papermod-cover.png</link>
     </image>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>2026 Arjun Bahuguna</copyright>
-    <lastBuildDate>Fri, 09 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/large-audio-language-models/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://arjbah.github.io/tags/large-audio-language-models/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Top 5 Takeaways from ICASSP 2026</title>
-      <link>http://localhost:1313/posts/2026_icassp_top10/</link>
-      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2026_icassp_top10/</guid>
+      <link>https://arjbah.github.io/posts/2026_05_icassp_top10/</link>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://arjbah.github.io/posts/2026_05_icassp_top10/</guid>
       <description></description>
     </item>
   </channel>

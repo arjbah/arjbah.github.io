@@ -37,9 +37,19 @@ exec_steps.md
 implementation_plan.md
 temp/
 
+
 # Miscellaneous
 *.pdf
 *.log
 *.tmp
 *.lock
 *.bkup
+
+# Templates
+ludovicschwartz's sick manim slides OIDS_COLT.html
+
+# Readings (per-post asset folders with PDFs etc.)
+content/posts/2026_05_music_tagging/
+content/posts/2026_02_new_horizons_in_SSL_for_MIR/
+content/posts/2026_05 evaluating_jtae/
+content/posts/2026_06_intermediate_representations_for_MIR/

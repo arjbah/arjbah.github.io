@@ -12,13 +12,69 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>2026 Arjun Bahuguna</copyright>
-    <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://arjbah.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Audio-Language-Models</title>
+      <link>https://arjbah.github.io/tags/audio-language-models/</link>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://arjbah.github.io/tags/audio-language-models/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CLAP</title>
+      <link>https://arjbah.github.io/tags/clap/</link>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://arjbah.github.io/tags/clap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Embedding-Geometry</title>
+      <link>https://arjbah.github.io/tags/embedding-geometry/</link>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://arjbah.github.io/tags/embedding-geometry/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Evaluation</title>
       <link>https://arjbah.github.io/tags/evaluation/</link>
-      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
       <guid>https://arjbah.github.io/tags/evaluation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Music-Ir</title>
+      <link>https://arjbah.github.io/tags/music-ir/</link>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://arjbah.github.io/tags/music-ir/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Self-Supervised Learning</title>
+      <link>https://arjbah.github.io/tags/self-supervised-learning/</link>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://arjbah.github.io/tags/self-supervised-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Conference Takeaways</title>
+      <link>https://arjbah.github.io/tags/conference-takeaways/</link>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://arjbah.github.io/tags/conference-takeaways/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Large Audio Language Models</title>
+      <link>https://arjbah.github.io/tags/large-audio-language-models/</link>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://arjbah.github.io/tags/large-audio-language-models/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Music Information Retrieval</title>
+      <link>https://arjbah.github.io/tags/music-information-retrieval/</link>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://arjbah.github.io/tags/music-information-retrieval/</guid>
       <description></description>
     </item>
     <item>
@@ -26,13 +82,6 @@
       <link>https://arjbah.github.io/tags/generation/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://arjbah.github.io/tags/generation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Music-Ir</title>
-      <link>https://arjbah.github.io/tags/music-ir/</link>
-      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://arjbah.github.io/tags/music-ir/</guid>
       <description></description>
     </item>
   </channel>

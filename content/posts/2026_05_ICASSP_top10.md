@@ -38,4 +38,4 @@ Ali Tajer's tutorial on Causal Representation Learning (CRL) introduced a framew
 
 The welcome reception had seafood, castells and an incredible live band, and I honestly can't pick a favorite. ICASSP kicked off with a bang.
 
-If you want to explore more of these trends, Hieu-Thi Luong's [paper theme map](https://lnkd.in/eD9tx_Ze) is a good place to start. I'm happy to go deeper on any of these topics, and I'd like to hear what your own takeaways from ICASSP 2026 were.
+If you want to explore more of these trends, Hieu-Thi Luong's [paper theme map](https://lnkd.in/eD9tx_Ze) is a good place to start.

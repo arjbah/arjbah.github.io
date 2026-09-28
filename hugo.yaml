@@ -148,7 +148,7 @@ params:
         url: tags
 
   homeInfoParams:
-    Title: "👋 Hola नमस्ते നമസ്കാരം السلام علیکم ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ 你好 こんにちは"
+    Title: "👋 Hola 你好 നമസ്കാരം নমস্কার السلام علیکم"
     Content: >
       I'm a Master's student in Sound & Music Computing at Universitat Pompeu Fabra, Barcelona. <br><br>
       Previously, I led Audio ML research at startups in Germany & India, focusing on improving large-scale self-supervised models for speech. <br><br>

@@ -19,7 +19,9 @@
       <link>https://arjbah.github.io/posts/2026_05_icassp_top10/</link>
       <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
       <guid>https://arjbah.github.io/posts/2026_05_icassp_top10/</guid>
-      <description></description>
+      <description>&lt;p&gt;I was at the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP) in Barcelona this year 🟨🟥🟨🟥. Here are my five main takeaways from the papers, tutorials and workshops I went to.&lt;/p&gt;
+&lt;h2 id=&#34;1-researchers-are-probing-how-audio-llms-work&#34;&gt;1. Researchers are probing how audio LLMs work&lt;/h2&gt;
+&lt;p&gt;At least 14 papers looked inside large audio language models to understand how they behave. Morais &amp;amp; Fuentes applied Shapley-value decomposition (MM-SHAP) to measure how much each modality contributes in music tasks, and found that audio and text contribute unevenly across subtasks. Chen used variational inference to calibrate uncertainty in audio question answering. Tam &amp;amp; Chen ran a controlled study showing that audio LLMs make biased clinical decisions when the speaker&amp;rsquo;s voice characteristics change. Kim et al. released an auditory illusion benchmark that exposed systematic failure modes in these models. Sridhar et al. (Audiocards) found that injecting structured metadata at inference time significantly improves text-audio retrieval, which suggests these models rely heavily on linguistic scaffolding.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

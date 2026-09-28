@@ -31,13 +31,6 @@
 &lt;p&gt;At least 14 papers looked inside large audio language models to understand how they behave. Morais &amp;amp; Fuentes applied Shapley-value decomposition (MM-SHAP) to measure how much each modality contributes in music tasks, and found that audio and text contribute unevenly across subtasks. Chen used variational inference to calibrate uncertainty in audio question answering. Tam &amp;amp; Chen ran a controlled study showing that audio LLMs make biased clinical decisions when the speaker&amp;rsquo;s voice characteristics change. Kim et al. released an auditory illusion benchmark that exposed systematic failure modes in these models. Sridhar et al. (Audiocards) found that injecting structured metadata at inference time significantly improves text-audio retrieval, which suggests these models rely heavily on linguistic scaffolding.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Top 5 Takeaways from pre-ICASSP Workshop 2026 at MTG</title>
-      <link>https://arjbah.github.io/posts/2026_05_preicassp_at_mtg/</link>
-      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://arjbah.github.io/posts/2026_05_preicassp_at_mtg/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Evaluation of Music Generation Systems</title>
       <link>https://arjbah.github.io/posts/2026_01_evaluation_of_music_generation_system/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>

@@ -61,3 +61,7 @@ iframe {
 .entry-cover img {
     border: 1px solid var(--border);
 }
+/* ====== Landing-page publications list ====== */
+.home-info .pubs { padding-left: 0; list-style: none; }
+.home-info .pubs li { margin-bottom: 14px; line-height: 1.5; }
+.home-info .pubs .pub-authors { color: var(--secondary); font-size: 0.95em; }

@@ -45,11 +45,11 @@ temp/
 *.lock
 *.bkup
 
-# Templates
-ludovicschwartz's sick manim slides OIDS_COLT.html
+# Private workspace: any folder named 'ignore' (e.g. OIDS_COLT.html slides)
+ignore/
 
-# Readings (per-post asset folders with PDFs etc.)
-content/posts/2026_05_music_tagging/
-content/posts/2026_02_new_horizons_in_SSL_for_MIR/
-content/posts/2026_05 evaluating_jtae/
-content/posts/2026_06_intermediate_representations_for_MIR/
+# Readings / source material: any folder next to a post (posts are single .md files)
+content/posts/*/
+
+# Hugo build cache output (the site is published from docs/)
+public/

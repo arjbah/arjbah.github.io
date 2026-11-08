@@ -1,0 +1,9 @@
+<ul class="pubs">
+    {{- range . }}
+    <li>
+        {{ if .url }}<a href="{{ .url }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}<br>
+        <span class="pub-authors">{{ replace .authors "Bahuguna, A." "<b>Bahuguna, A.</b>" | safeHTML }}</span><br>
+        <i>{{ .venue }}</i>
+    </li>
+    {{- end }}
+</ul>

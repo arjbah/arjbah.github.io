@@ -5,6 +5,8 @@ title: Arjun Bahuguna
 copyright: "© 2026 [Arjun Bahuguna](https://github.com/arjunbahuguna)"
 theme: [PaperMod]
 publishDir: "docs"
+# Source material (PDFs etc.) parked in folders next to posts is never copied into the site.
+ignoreFiles: ["content/posts/[^/]+/"]
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -149,10 +151,16 @@ params:
 
   homeInfoParams:
     Title: "👋 Hola 你好 നമസ്കാരം নমস্কার السلام علیکم"
-    Content: >
-      I'm a Master's student in Sound & Music Computing at Universitat Pompeu Fabra, Barcelona. <br><br>
-      Previously, I led Audio ML research at startups in Germany & India, focusing on improving large-scale self-supervised models for speech. <br><br>
-      My research interests are representation learning for audio and text, conditional generation of audio, and interpretability. Say hi if you're into audio as well :) <br><br>
+    Content: |
+      I'm a Research Scientist Intern at Nowon, a music recognition platform for live music. I also contribute to Essentia, the audio analysis library developed at the Music Technology Group (MTG). Previously, I led the research team at Audio Realities in Aachen, Germany.
+
+      I'm a part-time Master's student in the Sound & Music Computing program at Universitat Pompeu Fabra, Barcelona. My research interests include audio representation learning, multimodal audio understanding, and improving evaluation methodologies in music information retrieval.
+
+      My work has been presented at ISMIR, ICASSP, NeurIPS, ICML, and ADC. I've received scholarships/grants from ACM, L-Acoustics, and the ISMIR Organizing Committee.
+
+      I'm open to research internship roles for Summer 2027. Say hi if you're into audio as well!
+    # Hidden paragraph (YAML comment, never rendered). Paste back into Content above to show it:
+    # In 2026, my research was awarded the IET Tech Talk award by a jury consisting of Xavier Serra, Dmitry Bogdanov, and members of the IET ([link](https://www.linkedin.com/posts/arjunbahuguna_yesterday-we-hosted-the-iet-spain-tech-talk-activity-7466035651877163008-lIA-?utm_source=share&utm_medium=member_desktop&rcm=ACoAABtbMo0B3WKA-lbj7_QR7kO8dCFB16Ev3gU)). In 2025, I delivered a talk on generating music with latent diffusion methods at the Audio Developer Meetup Berlin and played a short show at Superbooth 2025 as the Modular Synthesizer Ensemble ([link](https://www.modularsynthesizerensemble.at/wp-content/uploads/2025/06/Modular-Synthesizer-Ensemble_Superbooth25_Thurdsay_smalll.mp4?_=3)). In 2024, my team won 'Best Software Hack' at the Music Hack Day 2024 for our project Inspira and it was presented at the inaugural ADCx India ([link](https://www.youtube.com/watch?v=efMyWdz2U8U&list=PLe2skUvADfhvv3WneYbP6nP_T09ZA1_rb&index=10&pp=iAQB)).
   socialIcons:
     - name: github
       title: Connect on GitHub
